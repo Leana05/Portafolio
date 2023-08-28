@@ -3,7 +3,7 @@
 }
 
 .fondo {
-  background-image: url("../Portafolio/fondo.jpg");
+  background-image: url("fondo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
