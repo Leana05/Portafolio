@@ -1,0 +1,63 @@
+:root {
+  --thistle: #e2cfeaff;
+  --amethyst: #a06cd5ff;
+  --royal-purple: #6247aaff;
+  --prussian-blue: #102b3fff;
+  --dark-green: #062726ff;
+}
+
+body {
+  background-color: var(--thistle);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  color: var(--prussian-blue);
+  padding: 20px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-izquierdo,
+.contenedor-derecho {
+  flex: 1;
+  background-color: var(--royal-purple);
+  padding: 20px;
+  text-align: center;
+}
+
+.contenedor-medio {
+  flex: 1;
+  background-color: var(--thistle);
+  padding: 20px;
+  text-align: center;
+}
+
+.contenedor-medio img {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+}
+
+a {
+  display: block; /* Cambiamos a display block */
+  margin-bottom: 15px; /* Agregar margen inferior para separar las etiquetas de las imágenes */
+  color: var(--prussian-blue);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: var(--dark-green);
+  color: var(--thistle);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

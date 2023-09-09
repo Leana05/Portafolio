@@ -1,0 +1,109 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.fondo {
+  background-image: url("imagenes/fondo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img {
+  width: 200px;
+  height: 250px;
+  border-radius: 360px;
+}
+
+.contenedor {
+  display: flex;
+  gap: 20px;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+.texttitulo {
+  text-align: center;
+  color: #8b4e36;
+}
+
+.informacion {
+  flex: 1;
+  padding: 20px;
+  background: rgba(133, 99, 98, 0.3);
+  border-radius: 10px;
+}
+
+.divnombre {
+  background: rgba(232, 219, 209, 0.3);
+  height: 30px;
+}
+
+.textnombre {
+  font-weight: bold;
+  color: #8c5f52;
+  text-align: center;
+}
+
+.textinfo {
+  font-weight: normal;
+}
+
+.textsobremi {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.sobremi {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(133, 99, 98, 0.3);
+}
+
+.img {
+  margin-right: 10px;
+}
+
+.cuadro {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+.division {
+  flex: 1;
+  padding: 20px;
+}
+
+.texttitulos {
+  text-align: center;
+  background-color: rgba(139, 78, 54, 0.5);
+  margin-top: 0px;
+}
+
+.div1y3 {
+  background: rgba(200, 99, 98, 0.3);
+  font-size: 20px;
+}
+
+.div2y4 {
+  background: rgba(133, 99, 98, 0.3);
+  font-size: 20px;
+}
+
+a {
+  display: inline-block;
+  padding: 3px;
+  color: #8b4e36;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #d08786;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
